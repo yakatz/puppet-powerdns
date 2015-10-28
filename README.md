@@ -11,6 +11,8 @@
 
 ## Overview
 
+This module is forked from jmkeyes/puppet-powerdns. It has more options configurable.
+
 This is yet another Puppet module to manage a PowerDNS DNS server. It currently targets the
 latest stable release of Puppet, and should support both RedHat and Debian family distributions.
 

@@ -50,12 +50,16 @@ class powerdns::config {
     mode   => $config_mode,
   }
 
-  powerdns::setting { 'daemon':
-    value => 'yes',
+  if $::powerdns::daemon {
+    powerdns::setting { 'daemon':
+      value => 'yes',
+    }
   }
 
-  powerdns::setting { 'guardian':
-    value => 'yes',
+  if $::powerdns::guardian {
+    powerdns::setting { 'guardian':
+      value => 'yes',
+    }
   }
 
   powerdns::setting { 'launch':

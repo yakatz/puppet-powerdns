@@ -1,12 +1,12 @@
 {
-  "name": "jmkeyes-powerdns",
-  "version": "0.0.7",
-  "author": "jmkeyes",
+  "name": "yakatz-powerdns",
+  "version": "0.0.8",
+  "author": "yakatz",
   "summary": "Module for managing PowerDNS.",
   "license": "Apache-2.0",
-  "source": "https://github.com/jmkeyes/puppet-powerdns",
-  "project_page": "https://github.com/jmkeyes/puppet-powerdns",
-  "issues_url": "https://github.com/jmkeyes/puppet-powerdns/issues",
+  "source": "https://github.com/yakatz/puppet-powerdns",
+  "project_page": "https://github.com/yakatz/puppet-powerdns",
+  "issues_url": "https://github.com/yakatz/puppet-powerdns/issues",
   "requirements": [
     {
       "name": "puppet",
@@ -17,15 +17,7 @@
     {
       "operatingsystem": "RedHat",
       "operatingsystemrelease": [
-        "6.0",
         "7.0"
-      ]
-    },
-    {
-      "operatingsystem": "Debian",
-      "operatingsystemrelease": [
-        "7.0",
-        "8.0"
       ]
     }
   ],

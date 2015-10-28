@@ -4,6 +4,8 @@ class powerdns (
   $settings        = {},
   $master          = undef,
   $slave           = undef,
+  $daemon          = undef,
+  $guardian        = undef,
   $setuid          = undef,
   $setgid          = undef,
   $package_name    = undef,
