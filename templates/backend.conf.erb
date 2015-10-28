@@ -3,7 +3,7 @@
 launch+=<%= backend %>
 
 <%- @options.each do |key, value| -%>
-<%- if (value != undef && value != "undef") -%>
+<%- if (value && value != :undef) -%>
 <%= backend -%>-<%= key -%>=<%= value %>
 <%- end -%>
 <%- end -%>
